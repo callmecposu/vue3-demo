@@ -1,12 +1,15 @@
 <template>
   <h1>Reaction Timer</h1>
   <button @click="start">Play</button>
+  <ReactionBlock />
 </template>
 
 <script>
+import ReactionBlock from "./components/ReactionBlock.vue";
+
 export default {
   name: "App",
-  components: {},
+  components: { ReactionBlock },
   data() {
     return {
       isPlaying: false,
