@@ -8,7 +8,7 @@ export default {
   name: "App",
   components: {},
   data() {
-    return {  
+    return {
       isPlaying: false,
       delay: null,
     };
